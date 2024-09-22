@@ -12,8 +12,8 @@ from io import BytesIO
 import tempfile
 
 # Login to Hugging Face
-access_token_read = "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"
-access_token_write = "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"
+access_token_read = "YOUR_HF_API_KEY"
+access_token_write = "YOUR_HF_API_KEY(SAME)"
 login(token=access_token_read)
 
 st.set_page_config(page_title="Chatbot App", page_icon=":robot_face:")
